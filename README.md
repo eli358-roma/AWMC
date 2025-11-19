@@ -3,7 +3,7 @@
 # Chinese Dictionary
 
 ## Consegna
-L'esame consiste nella presentazione di un'applicazione web su un tema scelto dai candidati (può essere condotta da una o più persone fino ad un massimo di 4) che abbia le seguente caratteristiche:
+Presentazione di un'applicazione web su un tema scelto dai candidati (può essere condotta da una o più persone fino ad un massimo di 4) che abbia le seguente caratteristiche:
 - Sia fruibile in modalità web anche da dispositivi mobile oppure sia una app mobile (ionic, xamarin, maui, nativescript, react native, flutter…)
 - Implementi un pattern MVC o Single Page Application
 - Abbia un backend ed un DBMS per il popolamento dei dati
@@ -18,10 +18,6 @@ Il progetto consiste in dizionario di cinese, compreso di significato della paro
 
 ## Pagina Web
 https://chinesedictionary.gt.tc
-
-## Utilizzo
-Accedere al sito https://chinesedictionary.gt.tc 
-Effettuare il login con password: ...
 
 ## Autore
 Romagnoli Elisa
