@@ -5,7 +5,7 @@ class Database {
 
     private function __construct() {
         try {
-            // CORREGGI: Password vuota per UniServerZ
+            // Credenziali per connettersi al database di InfinityFree
             $host = 'sql313.infinityfree.com';
             $dbname = 'if0_40406834_chinese_dictionary';
             $username = 'if0_40406834';
