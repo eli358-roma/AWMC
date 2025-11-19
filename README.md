@@ -16,11 +16,12 @@ Il progetto consiste in dizionario di cinese, compreso di significato della paro
 - **Server**: Infinityfree(https://www.infinityfree.com)
 - **Database**: phpMyAdmin (offerto dal pacchetto di Infinityfree)
 
-## Installazione
+## Pagina Web
 https://chinesedictionary.gt.tc
 
 ## Utilizzo
-[Come usare il progetto]
+Accedere al sito https://chinesedictionary.gt.tc 
+Effettuare il login con password: ...
 
 ## Autore
-[Tuo Nome] - [Eventuale email]
+Romagnoli Elisa
