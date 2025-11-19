@@ -8,7 +8,7 @@ $request = $_SERVER['REQUEST_URI'] ?? '/';
 //$method = $_SERVER['REQUEST_METHOD'];
 
 // CONFIGURAZIONE LOGIN
-$config_password = 'Niki358';
+$config_password = '&Niki&358!!';
 $session_timeout = 300; //5 minuti
 
 // Funzione per verificare il login con timeout
