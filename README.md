@@ -2,13 +2,19 @@
 
 # Chinese Dictionary
 
+## Consegna
+L'esame consiste nella presentazione di un'applicazione web su un tema scelto dai candidati (può essere condotta da una o più persone fino ad un massimo di 4) che abbia le seguente caratteristiche:
+- Sia fruibile in modalità web anche da dispositivi mobile oppure sia una app mobile (ionic, xamarin, maui, nativescript, react native, flutter…)
+- Implementi un pattern MVC o Single Page Application
+- Abbia un backend ed un DBMS per il popolamento dei dati
+
 ## Descrizione
-[Spiega cosa fa il tuo progetto in 2-3 righe]
+Il progetto consiste in dizionario di cinese, compreso di significato della parola in italiano, la parola in cinese, pronuncia (in pinyin) e note. Nel progetto è possibile inserire nuove parole e modificarle nel caso siano sbagliate o si vuole aggiungere qualcosa in più.
 
 ## Tecnologie Utilizzate
-- **Linguaggio**: [PHP/JavaScript/CSS/HTML]
+- **Linguaggio**: PHP/JavaScript/CSS/HTML
 - **Server**: Infinityfree(https://www.infinityfree.com)
-- **Database**: phpAdmin??? (offerto dal pacchetto di Infinityfree)
+- **Database**: phpMyAdmin (offerto dal pacchetto di Infinityfree)
 
 ## Installazione
 https://chinesedictionary.gt.tc
