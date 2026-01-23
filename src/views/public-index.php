@@ -13,7 +13,7 @@
         <div class="header-flex">    
             <h1>Chinese Dictionary</h1>
             <div>
-                <a href="/login" class="btn btn-primary">Area Admin</a>
+                <a href="/login" class="btn btn-link btn-sm">Admin</a>
             </div>
         </div>
         
