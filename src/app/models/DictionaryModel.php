@@ -18,7 +18,7 @@ class DictionaryModel {
         }
     }
 
-    public function getAllWords($search = '', $page = 1, $perPage = 10) {
+    public function getAllWords($search = '', $page = 1, $perPage = 30) {
         try {
             $offset = ($page - 1) * $perPage;
             $where = '';
