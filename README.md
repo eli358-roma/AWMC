@@ -1,4 +1,4 @@
-# Progetto-Applicazioni Mobile, Web, Cloud (modulo 1)
+# Progetto-Applicazioni Mobile, Web, Cloud
 
 # Chinese Dictionary
 
