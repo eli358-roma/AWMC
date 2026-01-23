@@ -61,7 +61,7 @@ class DictionaryController {
             ];
             
             // Controllo se è già quella parola nel database
-            if ($this->model->getDuplicateWords($data['meaning'], $data['chinese'], $data['pronounce'])) {
+            if ($this->model->getDuplicateWords($data['chinese'], $data['pronounce'])) {
                 $message = "❌ Questa parola esiste già nel database!";
             } else {
                 if ($this->model->createWord($data)) {
@@ -109,7 +109,7 @@ class DictionaryController {
             ];
             
             //controllo se è già presente la parola (escludendo la parola corrente)
-            if ($this->model->getDuplicateWords($data['meaning'], $data['chinese'], $data['pronounce'], $id)) {
+            if ($this->model->getDuplicateWords($data['chinese'], $data['pronounce'], $id)) {
                 $message = "❌ Questa parola esiste già nel database!";
             } else {
                 if ($this->model->updateWord($id, $data)) {
