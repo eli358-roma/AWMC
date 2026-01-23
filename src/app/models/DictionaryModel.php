@@ -139,17 +139,16 @@ class DictionaryModel {
     }
 
     //funzione con query per controllare se ci sono parole duplicate
-    public function getDuplicateWords($meaning, $chinese, $pronounce, $excludeId = null) {
+    public function getDuplicateWords($chinese, $pronounce, $excludeId = null) {
         try {
             $query = "SELECT * FROM dictionary 
-                    WHERE (meaning = :meaning OR chinese = :chinese OR pronounce = :pronounce)";
+                    WHERE (chinese = :chinese AND pronounce = :pronounce)";
             
             if ($excludeId) {
                 $query .= " AND id != :exclude_id";
             }
             
             $stmt = $this->db->prepare($query);
-            $stmt->bindValue(':meaning', $meaning);
             $stmt->bindValue(':chinese', $chinese);
             $stmt->bindValue(':pronounce', $pronounce);
             
