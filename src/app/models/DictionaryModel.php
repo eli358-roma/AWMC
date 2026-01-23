@@ -26,7 +26,7 @@ class DictionaryModel {
 
             //condizione per ricercare la parola che si è cercata
             if (!empty($search)) {
-                $where = "WHERE meaning LIKE :search OR chinese LIKE :search OR pronounce LIKE :search";
+                $where = "WHERE meaning LIKE :search OR chinese LIKE :search OR pronounce LIKE :search OR note LIKE :search";
                 $params[':search'] = "%$search%";
             }
 
