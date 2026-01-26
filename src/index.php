@@ -5,8 +5,8 @@ session_start();
 require_once __DIR__ . '/app/config/Database.php';
 require_once __DIR__ . '/app/controllers/DictionaryController.php';
 
-$config_password = '&Niki&358!!';
-$session_timeout = 300;
+$config_password = 'Awmc2';
+$session_timeout = 600;
 
 //funzione per verificare se un utente è autenticato e se la sua sessione sia ancora valida
 function isLoggedIn() {
